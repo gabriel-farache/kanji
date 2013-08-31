@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:stretchColumns="1" >
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/kanji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kanji"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/points"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow android:gravity="center" >
+
+        <Button
+            android:id="@+id/signi_rep"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            android:textSize="15dp" >
+        </Button>
+    </TableRow>
+
+    <TableRow
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/signi_k1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/kanji1"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/signi_k2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/kanji1"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/signi_k3"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/kanji1"
+            android:textSize="15dp" />
+
+    </TableRow>
+
+    <TableRow android:gravity="center" >
+
+        <Button
+            android:id="@+id/signi_k4"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/kanji1"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/signi_k5"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/kanji1"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/signi_k6"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/kanji1"
+            android:textSize="15dp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/menu"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@null"
+            android:contentDescription="@string/next"
+            android:src="@drawable/next_display"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/ok"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@null"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/ok_display"
+            android:visibility="gone" />
+    </TableRow>
+
+</TableLayout>

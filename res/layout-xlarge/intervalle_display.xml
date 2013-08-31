@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/intervalleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/intervalleTxt"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/intervalleDeb"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:hint="@string/borneInf"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textCursorDrawable="@null"
+        android:textSize="21dp" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/intervalleFin"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:hint="@string/borneSup"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textCursorDrawable="@null"
+        android:textSize="21dp" >
+
+    </EditText>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/menu"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/vide"
+            android:layout_gravity="center"
+            android:layout_margin="200dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/okInter"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@null"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/ok_display" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+    </TableRow>
+
+</LinearLayout>

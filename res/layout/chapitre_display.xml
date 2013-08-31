@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:stretchColumns="1" 
+android:paddingTop="10dp" 
+android:gravity="center"
+>
+
+	<TableRow android:layout_margin="10dp" >
+
+		<Button
+		    android:id="@+id/ch1"
+		    android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:padding="3dp"
+		    android:text="@string/ch01"
+		    android:textSize="15dp" />
+
+		<Button
+		    android:id="@+id/ch10"
+		    android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:padding="3dp"
+		    android:text="@string/ch10"
+		    android:textSize="15dp" />
+
+		<Button
+		    android:id="@+id/ch19"
+		    android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:padding="3dp"
+		    android:text="@string/ch19"
+		    android:textSize="15dp" />
+
+	</TableRow>
+
+	<TableRow android:layout_margin="10dp" >
+
+		<Button
+		    android:id="@+id/ch28"
+		    android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:padding="3dp"
+		    android:text="@string/ch28"
+		    android:textSize="15dp" />
+
+		<Button
+		    android:id="@+id/ch37"
+		    android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:padding="3dp"
+		    android:text="@string/ch37"
+		    android:textSize="15dp" />
+
+		<Button
+		    android:id="@+id/ch46"
+		    android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:padding="3dp"
+		    android:text="@string/ch46"
+		    android:textSize="15dp" />
+
+	</TableRow>	
+
+	<TableRow android:layout_margin="10dp" >
+
+      <Button
+          android:id="@+id/menu"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="@string/menu"
+          android:textSize="15dp" />
+
+    </TableRow>
+</TableLayout>   

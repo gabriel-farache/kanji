@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kanji test</string>
+    <string name="points">Score</string>
+    <string name="next">next-button</string>
+     <string name="ok">ok button</string>
+     <string name="kanji">Kanji</string>
+     <string name = "rep">Réponse</string>
+     <string name="menu">Retour au menu</string>
+     <string name="recap">Récapitulatif</string>
+     <string name="ch01">01 &#8211; 09</string>
+     <string name="ch10">10 &#8211; 18</string>
+     <string name="ch19">19 &#8211; 27</string>
+     <string name="ch28">28 &#8211; 36</string>
+     <string name="ch37">37 &#8211; 45</string>
+     <string name="ch46">46 &#8211; 55</string>
+    <string name="intervalleTxt">Entrer votre intervalle [1; 2065[ :</string>
+    <string-array name="options_array">
+        <item>Kanji : vous saisissez la signification</item>
+        <item>Kanji : entraînement</item>
+        <item>Kanji : QCM</item>
+        <item>Signification : entraînement</item>
+        <item>Signification : QCM</item>
+        <item>Revisions</item>
+    </string-array>
+     <string-array name="choices_array">
+        <item>Intervalle</item>
+        <item>Chapitre</item>
+    </string-array>
+     <string name="indications">Entrer votre réponse</string>
+     <string name="borneInf">Borne inferieur</string>
+     <string name="borneSup">Borne superieur</string>
+     <string name="nePlusMontrer">Ne plus demander confirmation</string>
+     
+    
+</resources>

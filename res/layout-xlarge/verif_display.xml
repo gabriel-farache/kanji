@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>	
+
+  <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:stretchColumns="1" 
+		android:paddingTop="10dp" 
+		android:gravity="center"
+	>
+		<TableRow>
+
+			<Button
+			    android:id="@+id/okKo"
+			    android:layout_width="0dip"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="10dp"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="10dp"
+			    android:layout_weight="1"
+			    android:padding="3dp"
+			    android:text=""
+			    android:textSize="25dp" />
+			
+		</TableRow>
+
+		<TableRow
+		    android:layout_margin="10dp"
+		    android:gravity="center_horizontal" >
+
+			<Button
+			    android:id="@+id/kanjiCorr"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_marginBottom="10dp"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="10dp"
+			    android:background="@drawable/kanji1" />
+
+		</TableRow>
+			
+		<TableRow android:layout_margin="10dp" >
+		
+			<Button
+			    android:id="@+id/repUtil"
+			    android:layout_width="0dip"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="10dp"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="10dp"
+			    android:layout_weight="1"
+			    android:text=""
+			    android:textSize="25dp" />
+			
+			<Button
+			    android:id="@+id/repCorr"
+			    android:layout_width="0dip"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="10dp"
+			    android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="10dp"
+			    android:layout_weight="1"
+			    android:text=""
+			    android:textSize="25dp" />
+
+		</TableRow>
+		<TableRow>
+			<Button 
+				android:padding="3dp"
+				android:layout_marginTop="5dip"
+				android:layout_weight="1"
+				android:layout_width="0dip"	
+				android:visibility="invisible"
+			/>
+			<Button
+				android:padding="3dp"
+				android:layout_marginTop="5dip"
+				android:layout_weight="1"
+				android:layout_width="0dip"	
+				android:visibility="invisible"
+			/>
+
+            <ImageButton
+                android:id="@+id/next"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@null"
+                android:contentDescription="@string/next"
+                android:src="@drawable/next_display"
+                android:text="" >
+
+			</ImageButton>
+			<Button
+                android:id="@+id/end"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dip"
+               	android:visibility="gone"
+                android:background="@drawable/end"
+                android:text="" >
+			</Button>
+	</TableRow> 
+</TableLayout>  

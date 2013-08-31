@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:orientation="vertical" 
+  android:layout_height="fill_parent"
+  android:gravity="center"
+>  
+    <TextView android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:textSize="16pt"	
+        android:text="@string/recap"  
+        android:textStyle="bold"
+    	android:textColor="#ff5000" />
+    
+  	<TextView android:id="@+id/recapTxt" android:layout_height="wrap_content" android:layout_width="wrap_content" 
+		android:textStyle="bold" android:layout_marginTop="10dp" android:textSize="12pt"
+    	android:textColor="#ffffff" />
+    
+	<ImageButton
+		android:id="@+id/endChoice"
+		android:contentDescription="@string/ok"
+		android:src="@drawable/ok_display"
+		android:layout_width="75dp"
+		android:layout_height="75dp"
+		android:background="@null"
+		android:text="" >
+	</ImageButton>
+</LinearLayout>
